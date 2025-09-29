@@ -1,0 +1,24 @@
+.cuadrado {
+    width: 30vh;
+    height: 30vh;
+}
+
+.fila {
+    height: 14.3%;
+}
+
+.casillero {
+    border: black solid 1px;
+    width: 33.3%;
+    height: 100%;
+}
+
+.oblongo {
+    width: 100%;
+    height: 33.3%;
+}
+
+.casilleroOb {
+    width: 14.2%;
+    border: black solid 1px;
+}
