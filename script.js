@@ -14,7 +14,7 @@ const casillero_h_width = document.getElementsByClassName("casillero")[0].offset
 const casillero_h_height = document.getElementsByClassName("casillero")[0].offsetHeight-2
 const casillero_v_width = document.getElementsByClassName("casilleroOb")[0].offsetWidth-2
 const casillero_v_height = document.getElementsByClassName("casilleroOb")[0].offsetHeight-2
-
+console.log(casillero_h_height)
 ctx.moveTo(0,0)
 ctx.rect(casillero_h_width, 0, casillero_h_width, casillero_h_height)
 
