@@ -10,9 +10,12 @@ ctx.lineTo(canvas.width, canvas.height)
 ctx.moveTo(0,canvas.height)
 ctx.lineTo(canvas.width, 0)
 
-const casillero_h_width = document.getElementsByClassName("casillero")[0].offsetWidth
-const casillero_h_height = document.getElementsByClassName("casillero")[0].offsetHeight
-const casillero_v_width = document.getElementsByClassName("casilleroOb")[0].offsetWidth
-const casillero_v_height = document.getElementsByClassName("casilleroOb")[0].offsetHeight
+const casillero_h_width = document.getElementsByClassName("casillero")[0].offsetWidth-2
+const casillero_h_height = document.getElementsByClassName("casillero")[0].offsetHeight-2
+const casillero_v_width = document.getElementsByClassName("casilleroOb")[0].offsetWidth-2
+const casillero_v_height = document.getElementsByClassName("casilleroOb")[0].offsetHeight-2
+
+ctx.moveTo(0,0)
+ctx.rect(casillero_h_width, 0, casillero_h_width, casillero_h_height)
 
 ctx.stroke()
