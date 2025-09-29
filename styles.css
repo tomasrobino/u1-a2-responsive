@@ -21,3 +21,23 @@
     width: 14.2%;
     border: black solid 1px;
 }
+
+.grisc {
+    background-color: grey;
+}
+
+.rojoc {
+    background-color: red;
+}
+
+.azulc {
+    background-color: blue;
+}
+
+.verdec {
+    background-color: green;
+}
+
+.amarilloc {
+    background-color: yellow;
+}
